@@ -1,0 +1,249 @@
+/*
+ *   Template Name: Euforia - Responsive Vcard Template
+ *   Version: 2.1
+ *   Author:  Lukasz Lelek
+ *   Website: www.ht2.pl
+*/
+/*
+ *	TABLE CONTENTS
+ *	-------------------------------
+ *                
+ *           - HOME SECTION
+ *           - ABOUT SECTION
+ *           - SERVICES SECTION
+ *           - PORTFOLIO SECTION
+ *           - PORTFOLIO-SINGLE-V2 SECTION
+ *           - BLOG SECTION
+ *           - BLOG-POST SECTION
+ *           - CONTACT SECTION
+ *
+ *	------------------------------- 
+*/
+
+
+/* HOME SECTION */
+.intro-text {
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.intro-text .weight300 {
+    font-weight: 300;
+}
+.block {
+    display: block;
+}
+
+
+/* ABOUT SECTION */
+
+
+/* SERVICES SECTION */
+.bg-img-services {
+    background: url('../img/bg/services-bg1.jpg') 100% fixed no-repeat; 
+    position: relative;  
+}
+#home {
+	background: url('../img/splashimage.jpg') left center no-repeat;
+	background-size:cover; 
+	
+}
+.shadow {
+    height: 80%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: url("../img/shadow1.png") no-repeat scroll center top;
+    background-size: 100%;
+}
+.bg-opacity {
+    background: rgba(255,255,255, .9);
+}
+.padding30 {
+  padding: 30px;
+}
+.services-img01 {
+  position: absolute;
+  z-index: 2;
+  bottom: -90px;
+  right: 0px;
+}
+.intro-text h1{width:50%; float:right;margin-top:0px;}
+.intro-text h1 img{width:90%;vertical-align:text-top;}
+/* PORTFOLIO SECTION */
+/* BLOG SECTION */
+/* CONTACT SECTION  */
+.contact-details {
+  background: url(../img/bg/map_bg.png) left 0px no-repeat;
+}
+.contact-form .form-style .form-loader {
+  margin-right: 8px;
+  display: none;
+}
+.contact-form .form-style .alert {
+  color: #ec7424;
+  background: none;
+  font-size: 12px;
+  letter-spacing: 0;
+  border-radius: 0;
+  border: 0;
+  padding: 4px 2px;
+  font-size: 14px;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;
+}
+.contact-form .form-style .alert-validate-form {
+  display: none;
+}
+.contact-form .form-style .alert-validate-form .alert.error {
+    display: block;
+    background: #fd4040;
+    color: #fff;
+    font-size: 14px;
+    padding: 15px 20px;
+    border: 0;
+    font-weight: 400;
+}
+.contact-form .form-style .alert-validate-form .alert.success {
+  background: #119400;
+  color: #fff;
+  font-weight: 400;
+  padding: 15px 20px;
+}
+.message-desc,.message-desc1 {
+    display: none;
+    padding: 15px;
+    line-height: 1.4;
+    width: 100%;
+    font-size: 18px;
+}
+.message-desc.current,.message-desc1.current{
+	display: inherit;
+}
+.btn-sm.btn-link.current {
+    background: #ec7424;
+    color: #fff;
+    box-shadow: none;
+}
+.modal-open .modal{
+	z-index:999999;
+	background: url('../img/background.jpg') center center no-repeat;
+	background-size: cover;
+	}
+.modal-dialog{
+	z-index: 999999;
+    width: 90%;
+	text-align:center;
+	margin:0 auto;
+}
+ul.photomemoire, ul.photomemoire1, ul.photomemoire-aug{padding-left:0px;}
+ul.photomemoire li, ul.photomemoire1 li, ul.photomemoire-aug li {     
+	list-style:none;
+	margin-bottom:15px; 
+	padding-right:7px;
+	padding-left:7px;	 	
+}
+ul.photomemoire li img, ul.photomemoire1 li img, ul.photomemoire-aug li img {
+    cursor: pointer;
+	height:120px;
+}
+#ics  .carousel-inner>.item>a>img,#ss  .carousel-inner>.item>a>img,#cgs  .carousel-inner>.item>a>img,#axa  .carousel-inner>.item>a>img,#adc  .carousel-inner>.item>a>img{display:inline-block;}
+#ics .carousel-control,#ss .carousel-control,#cgs .carousel-control,#adc .carousel-control,#axa .carousel-control{width:3%}
+#photomemoire .modal-header{padding:0px 15px;border:0px;height:28px;}
+#photomemoire1 .modal-header{padding:0px 15px;border:0px;height:28px;}
+.close{font-size:40px;}
+.modal-backdrop{background:none;}
+#ics .carousel-control.right, #ics .carousel-control.left,#ss .carousel-control.right, #ss .carousel-control.left,#cgs .carousel-control.right, #cgs .carousel-control.left,#adc .carousel-control.right, #adc .carousel-control.left,#axa .carousel-control.right, #axa .carousel-control.left{background:none;}
+.modal-dialog .modal-body img{max-width:100%;display:inline-block;}
+#myCarousel2 ul{text-align:left;}
+#myCarousel2 ul li{list-style-type:square}
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    margin-right: 20px;
+    background: url(../images/right-arrow.png);
+    background-repeat: no-repeat;
+    width: 28px;
+    height: 48px;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+    margin-left: 0px;
+    background: url(../images/left-arrow.png);
+    background-repeat: no-repeat;
+    width: 28px;
+    height: 48px;
+}
+.glyphicon-chevron-right:before,.glyphicon-chevron-left:before{content:'';}
+ul.photomemoire li img{cursor:pointer;}
+.blog-box-caption ul li{font-weight:500;}
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+   margin: auto;
+  }
+  #cap-overview .contents,#cap-overview1 .contents{
+  position:absolute;
+  left:25%;
+  top:5%;
+  width:50%;
+  }
+  #cap-overview h3,#cap-overview1 h3{
+	font-size: 28px;
+    color: white;}
+  #cap-overview #item1 h2,#cap-overview1 #item11 h2{
+  font-size:50px;
+  color:RGB(0,38,74);  
+  white-space: nowrap;
+  width:30em;
+  overflow: hidden;
+  animation: linearwipe 6s steps(60, end); 
+  line-height:1.2;
+  }
+  #cap-overview #item1 h2 span,#cap-overview1 #item11 h2 span{padding-left:20px;font-weight:bold;}
+  #cap-overview #item2 .contents img,#cap-overview1 #item21 .contents img{display:block;margin-left:65%}  
+  .carousel-control{width:auto}
+  .carousel-inner > .item > img, .carousel-inner > .item > a > img{width:100%;}
+  .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next{margin-right:0px;}
+
+  
+@keyframes linearwipe{ 
+  from { width: 0; }  
+}
+.thought-leader {padding-left:0px;}
+.thought-leader p{
+	font-size: 28px;
+    color: white;
+	font-family:'Oswald', Helvetica, Arial, serif;
+	font-weight:400;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .blog-box-caption ul li{
+  font-size:12px;  
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .blog-box-caption ul li{
+  font-size:11px;  
+  }
+  #photomemoire .modal-dialog .modal-body img{width:90%;}
+}
+
+
+.intro-top, .intro-bottom{clear:both;}
+.intro-bottom-text{float:right; text-align:center; padding: 20px; border-radius: 20px; margin-right: 10%; background: rgba(255, 255, 255, 0.7);}
+.intro-bottom-text h3, .intro-bottom-text h1{margin:0; color:#0984a0;}
+
+
+
+
+#memories{
+background: #29a4e0;	
+}
+.btn.btn-link.tab-photo-m{color: #000; font-size: 16px; background:#fff;}
+.btn.btn-link.tab-photo-m.current{color: #fff; background: #fdbc21;}
+
+[class*=' col-'] img {
+    max-width: 100%;
+}
+
+
+
